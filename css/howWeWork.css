@@ -33,7 +33,10 @@ main {
 
 header {
   background-color: #307fe2;
-  padding: 18px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 18px;
+  padding-bottom: 68px;
 }
 .container-header-nav {
   display: flex;
@@ -578,4 +581,19 @@ header {
   font-style: normal;
   font-weight: 600;
   position: relative;
+}
+
+.container-header-nav-right a {
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.container-header-nav-right ul {
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  gap: 30px;
 }

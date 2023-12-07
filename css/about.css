@@ -598,3 +598,18 @@ footer {
   font-weight: 600;
   position: relative;
 }
+
+.container-header-nav-right a {
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.container-header-nav-right ul {
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  gap: 30px;
+}

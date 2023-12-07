@@ -1,0 +1,581 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+li,
+a,
+p,
+h1,
+h2,
+h3,
+a,
+div,
+span {
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+}
+
+main {
+  margin: auto;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #307fe2;
+  padding: 18px 10px;
+}
+.container-header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-header-nav ul {
+  display: flex;
+  gap: 8px;
+}
+
+.container-header-nav-right {
+  display: flex;
+  gap: 68px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.contacts {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contacts span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container-main-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.container-main-header h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.container-main-header h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 600px;
+}
+
+.container-main-header p {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.container-main-header span {
+  color: #a5e1fd;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.price {
+  margin-top: 254px;
+  margin-bottom: 130px;
+}
+
+.price-title h1 {
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 80px;
+}
+
+.what-price {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.amount-up-to h3 {
+  color: #5e5e5e;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115%; /* 25.3px */
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.amount-up-to h4 {
+  color: #93da49;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 28.6px */
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+
+.amount-up-to h2 {
+  color: #93da49;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 23.4px */
+}
+
+.cost-of-services {
+  margin-top: 46px;
+}
+
+.cost-of-services p {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 200%; /* 32px */
+}
+
+.cost-of-services span {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.total-cost {
+  margin-bottom: 85px;
+  margin-top: 40px;
+}
+
+.total-cost h1 {
+  color: #5e5e5e;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%; /* 52px */
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+}
+
+.total-cost h2 {
+  color: #5e5e5e;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 200%; /* 36px */
+}
+
+.total-cost h3 {
+  color: #307fe2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 200%; /* 36px */
+}
+
+.button-submit-your-application {
+  background: #307fe2;
+}
+
+.button-submit-your-application p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 30px 0;
+}
+
+.container-bankruptcy {
+  border: 1px solid #eaf7de;
+  background: #f7ffef;
+  text-align: center;
+  width: 380px;
+  padding-top: 48px;
+}
+
+.background {
+  background-color: #307fe2;
+}
+
+.procedure {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 55px;
+}
+
+.procedure-right {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.procedure h1 {
+  color: #fff;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 630px;
+}
+
+.procedure p {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.procedure span {
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.button-debts {
+  background: #f9e547;
+  padding: 35px 30px;
+  display: inline-flex;
+}
+
+.title-how-work h1 {
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 92px;
+  margin-top: 140px;
+}
+
+.items-how-work {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.container-items-how-work {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.item-how-work {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item-how-work h2 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.item-how-work p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; /* 32px */
+}
+
+.button-elipse {
+  display: flex;
+  justify-content: center;
+}
+
+.container-footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 77px;
+  flex-wrap: wrap;
+}
+
+.container-footer h2 {
+  color: #307fe2;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.4px;
+  text-transform: uppercase;
+}
+
+.container-footer h1 {
+  color: #307fe2;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 9.6px;
+  text-transform: uppercase;
+}
+
+.container-footer h3 {
+  color: #307fe2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 450px;
+}
+
+.container-footer p {
+  color: #5e5e5e;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.container-footer span {
+  color: #1e1e1e;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-footer ul {
+  display: flex;
+  gap: 20px;
+}
+
+.contacts-footer {
+  gap: 30px;
+}
+
+.container-footer-info-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.background-footer {
+  background-color: #307fe2;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 52px 32px;
+  max-width: 715px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.background-footer h4 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.background-footer span {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-end {
+  margin-bottom: 58px;
+}
+
+@media (max-width: 1100px) {
+  .container-header-nav-right {
+    display: none;
+  }
+  .container-main-header h1 {
+    font-size: 36px;
+  }
+  .container-main-header h2 {
+    font-size: 20px;
+  }
+  .price-title h1 {
+    font-size: 36px;
+  }
+  .price {
+    margin-top: 30px;
+  }
+  .container-bankruptcy {
+    max-width: 300px;
+  }
+  .procedure-right h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .procedure-right p {
+    text-align: center;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  .procedure {
+    padding: 30px 10px;
+    justify-content: center;
+  }
+}
+@media (max-width: 1100px) {
+  .container-footer-info-right h2 {
+    font-size: 36px;
+  }
+  .container-footer-info-right h1 {
+    font-size: 38px;
+  }
+  .container-footer-info-right {
+    text-align: center;
+  }
+  .container-header-nav-right {
+    display: none;
+  }
+  .container-main-header h1 {
+    font-size: 36px;
+  }
+  .container-main-header h2 {
+    font-size: 20px;
+  }
+  .info-items {
+    justify-content: center;
+    gap: 30px;
+  }
+  .container-footer-info-right ul {
+    margin: 0 auto;
+  }
+  .about-bank-title h1 {
+    font-size: 36px;
+  }
+  .about-bank-info {
+    text-align: center;
+  }
+  .about-bank-info h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .about-bank-info h2 {
+    font-size: 144px;
+  }
+  .about-bank-info-right p {
+    font-size: 18px;
+  }
+  .natacia p {
+    font-size: 18px;
+  }
+  .at-the-same-time h1 {
+    font-size: 34px;
+  }
+  .container-at-the-same-time-right p {
+    font-size: 18px;
+  }
+  .reklama p {
+    font-size: 24px;
+  }
+  .container-items-how-work {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1100px) {
+  .ul__header {
+    display: none;
+  }
+  .header__container-wrapper_but {
+    display: block;
+  }
+  .main__left-block-h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1100px) {
+  .header__container-wrapper_but {
+    display: none;
+  }
+}
+
+.header__container-wrapper_modal {
+  transition: all 1s;
+}
+.header__container-wrapper_modal menu {
+  height: 100vh;
+  display: flex;
+  background-color: #307fe2;
+}
+
+.header__container-wrapper_modal ul {
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+}
+.header__container-wrapper_modal li {
+  font-family: Arial;
+}
+.header__container-wrapper_modal a {
+  color: white;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  position: relative;
+}
